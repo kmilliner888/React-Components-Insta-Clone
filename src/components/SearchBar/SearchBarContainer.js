@@ -2,7 +2,7 @@
 import React from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+const SearchBarContainer = () => {
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
@@ -29,4 +29,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default SearchBarContainer;
