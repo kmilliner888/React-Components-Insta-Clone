@@ -13,7 +13,7 @@ import "./App.css";
 import { dummyData } from "./dummy-data";
 import PostPage from "./components/PostsContainer/PostsPage";
 import SearchBarContainer from "./components/SearchBar/SearchBarContainer";
-import CommentSectionContainer from "./components/CommentSection/CommentSectionContainer";
+
 
 const App = () => {
   // set up state for the dummy data and pass to your PostsPage
@@ -25,7 +25,7 @@ const App = () => {
     <div className="App">
       <SearchBarContainer />
       <PostPage pageData={data}/>
-      <CommentSectionContainer />
+      
     </div>
   );
 };

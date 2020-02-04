@@ -10,8 +10,9 @@ const PostsPage = (props) => {
     <div className="posts-container-wrapper">
       {props.pageData.map((item, index) => {
         // console.log("item", item);
-        return <div  key={index}><Post post={item}/></div>
+        return <div  key={index}><Post post={item}/>/></div>
       })}
+      
       
     </div>
 
